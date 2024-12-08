@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color:#1A1A19;
+}
+
+header .logo-business{
+    color:white;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.logo-business span{
+    color: #ff6106;
+}
+
+header .nav-link ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-link ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-link ul li a:hover{
+    color: #ff6106;
+    transition: 0.8s;
+}
+
+#order-now
+{
+    background-color: #ff6106;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 3;
+    transition: ease-in;
+}
+
+#order-now:hover{
+    background-color: white;
+    color: #ff6106;
+    transition: 0.5s;
+}
+
+#the-body{
+    background-color: black;
+    height: 100vh;
+}
+
+#the-body .images-et-textes p {
+    color: white;
+    text-align: justify;
+    line-height: 2;
+}
+
+
